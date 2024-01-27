@@ -17,5 +17,5 @@ Employee.prototype = Object.create(Person.prototype)}
 window.Person = Person;
 window.Employee = Employee;
 Employee.prototype.jobGreet = function() {
-	return this.jobTitle
+	return Hello, my name is + " " + this.name + " " + , I am + " " + this.age + years old, and my job title is + " " + this.jobTitle.
 }
