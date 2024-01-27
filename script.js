@@ -7,7 +7,7 @@ function Person(name, age) {
 }
 
 function Employee(name, age, jobTitle) {
-	Car.call(this, make, model);
+	Car.call(this, name,age);
 	this.jobTitle = jobTitle
 	
 }
